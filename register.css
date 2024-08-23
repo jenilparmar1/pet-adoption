@@ -1,0 +1,44 @@
+:root {
+    --accent: #ff9a24;
+    --black: #131313;
+}
+
+.intro{
+    background-image: url(./img/register1.gif);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: 100vw; 
+    height: 100vh;
+    position: relative;
+}
+
+.overlay{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+.form-con{
+    background-color: rgb(0, 0, 0);
+    height: fit-content;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-con button{
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-out;
+    margin: 15px;
+    margin-left: 0;
+}
+
+.form-con button:hover{
+    background-color: var(--accent);
+    color: black;
+}
+
+.form-con input{
+    margin-bottom: 5px;
+}    

@@ -1,8 +1,9 @@
-$(".reveal").on('click',function() {
-    var $pwd = $(".pwd");
-    if ($pwd.attr('type') === 'password') {
-        $pwd.attr('type', 'text');
+function toggle(){
+    var x = document.getElementById("password");
+
+    if (x.type === "password") {
+        x.type = "text";
     } else {
-        $pwd.attr('type', 'password');
+        x.type = "password";
     }
-});
+}
