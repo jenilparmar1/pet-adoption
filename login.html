@@ -12,7 +12,7 @@
     <div class="intro">
             <div class="overlay h-100 d-flex align-items-center justify-content-center">
                 <div class="form-con form-group">
-                    <form action="#">
+                    <form id="loginForm">
                         <div class="form-row">
                             <label for="username">username or email</label>
                             <input type="text" class= "form-control" name="username" id="username" placeholder="username">
@@ -21,6 +21,7 @@
                             <label for="password">password</label>
                             <input type="password" class="form-control pwd" name="password" id="password" placeholder="Password">
                         </div>
+                        <p id="error-message" style="color: red;"></p>
                         <div class="form-row">
                             <input type="checkbox" class="" name="show" id="show" onclick="toggle()">
                             <label for="show" class="form-check-label">show password</label>
