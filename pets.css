@@ -1,0 +1,59 @@
+/* Styles for More Pets Section */
+.more-pets {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.more-pets .pets-headlines {
+    margin-bottom: 30px;
+}
+
+.more-pets .pets-headlines h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.more-pets .pets-headlines p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.more-pets .pets-collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.more-pets .pet-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+.more-pets .pet-item img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.more-pets .pet-item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.more-pets .pet-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Hover effect for pet items */
+.more-pets .pet-item:hover {
+    transform: scale(1.05);
+}
