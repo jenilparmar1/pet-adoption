@@ -4,7 +4,7 @@
 }
 
 .intro{
-    background-image: url(./img/ngan-pham-kitten.gif);
+    background-image: url(/img/ngan-pham-kitten.gif);
     background-position:center center;
     background-repeat: no-repeat;
     background-size: 100vw; 
