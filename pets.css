@@ -1,8 +1,24 @@
-/* Styles for More Pets Section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --accent: #ff9a24;
+    --black: #131313;
+}
+
+body {
+    min-height: 100vh;
+}
+
 .more-pets {
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color: white;
     text-align: center;
+    margin-top: 150px;
 }
 
 .more-pets .pets-headlines {
@@ -56,4 +72,123 @@
 /* Hover effect for pet items */
 .more-pets .pet-item:hover {
     transform: scale(1.05);
+}
+
+nav {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: var(--black); */
+    color: white;
+    background-color: black;
+    padding: 30px 50px;
+    transition: all 0.4s ease-out;
+    filter: drop-shadow(5px 5px 10px transparent);
+}
+
+nav.sticky {
+    background-color: none;
+    filter: drop-shadow(5px 5px 10px #ffbe745e);
+}
+
+.brand {
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+    /* color: var(--black); */
+    color: white;
+}
+
+.brand h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.brand :hover {
+    opacity: 0.8;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.menu a {
+    display: inline-block;
+    position: relative;
+    color: white;
+    /* color: var(--black); */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 32px;
+    background-color: black;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.menu a:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+.btn{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.btn-2{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    transition: all ease-in-out 0.2s;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-2 i{
+    font-size: 32px;
+    transition: all 0.2s ease-out;
+}
+
+.btn-2:hover{
+    color: var(--black);
+}
+
+.btn-2:hover {
+    gap: 10px;
+}
+
+.login a {
+    display: inline-block;
+    position: relative;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 32px;
+    background-color: black;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.login a:hover {
+    background-color: var(--accent);
+    color: white;
 }
