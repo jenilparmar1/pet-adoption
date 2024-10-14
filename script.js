@@ -3,7 +3,7 @@ window.addEventListener("scroll", () =>
     navbar.classList.toggle("sticky",window.scrollY > 0)
 );
 
-const menu = document.querySelector(".menu");\
+const menu = document.querySelector(".menu");
 const toggleMenu = () => menu.classList.toggle("active");
 
 document.querySelector(".menu-btn").addEventListener("click",toggleMenu);
@@ -60,5 +60,3 @@ sr.reveal(".testimony-item", { delay: "1000"});
 sr.reveal(".footer-links", { delay: "500", origin: "left"});
 sr.reveal(".footer-contact-info", { delay: "500", origin: "right"});
 sr.reveal(".copyright", { delay: "600"});
-
-

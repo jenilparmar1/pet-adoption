@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <!-- Use for responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,35 +12,25 @@
     <!-- For Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- For Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link For Gsap -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Link For Gsap - Scroll Trigger -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Link For Lenis - Smooth Scrolling -->
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <!-- Link For Split Type -->
     <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
-
     <title>Purrfect | Pet Adoption</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav>
         <a href="index.html" class="brand">
             <h1>PURR<b class="accent">Fect</b></h1>
@@ -64,7 +55,7 @@
                 </button>
             </a>
         </div>
-        
+
         <div class="btn">
             <i class="fas fa-bars menu-btn"></i>
         </div>
@@ -85,9 +76,9 @@
             </div>
         </div>
         <div class="hero-images">
-            <img src="./img/hero-img-1.png" alt="img"/>
-            <img src="./img/hero-img-2.png" alt="img"/>
-            <img src="./img/hero-img-3.png" alt="img"/>
+            <img src="./img/hero-img-1.png" alt="img" />
+            <img src="./img/hero-img-2.png" alt="img" />
+            <img src="./img/hero-img-3.png" alt="img" />
         </div>
     </section>
 
@@ -133,7 +124,7 @@
                 </div>
             </div>
         </div>
-        <img src="./img/requirements-img.png" alt="img"/>
+        <img src="./img/requirements-img.png" alt="img" />
     </section>
 
     <section class="pets" id="pets">
@@ -144,30 +135,34 @@
 
         <div class="pets-collection">
             <div class="pet-item">
-                <img src="./img/pet-item-1.png" alt="img"/>
+                <img src="./img/pet-item-1.png" alt="img" />
                 <h3>Sir Woofs</h3>
             </div>
             <div class="pet-item">
-                <img src="./img/pet-item-2.png" alt="img"/>
+                <img src="./img/pet-item-2.png" alt="img" />
                 <h3>Captain Squawks</h3>
             </div>
             <div class="pet-item">
-                <img src="./img/pet-item-3.png" alt="img"/>
+                <img src="./img/pet-item-3.png" alt="img" />
                 <h3>Professor Meow</h3>
             </div>
         </div>
-        <button class="btn-3 btn-pets">
-            <p>Find More</p>
-            <i class="fa-solid fa-arrow-right-long"></i>
-        </button>
+        <a href="pets.html" target="_self">
+            <button class="btn-3 btn-pets">
+                <p>Find More</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+        </a>
+
     </section>
 
     <div class="about" id="about">
         <div class="about-headlines">
             <h1>About us</h1>
             <p class="reveal-type" data-bg-color="#cccccc" data-fg-color="black">
-                Purrfect is not just a 
-                <b>pet adoption website</b>; it's a haven for both pets in search of their forever homes and compassionate individuals ready to welcome them with open arms.
+                Purrfect is not just a
+                <b>pet adoption website</b>; it's a haven for both pets in search of their forever homes and
+                compassionate individuals ready to welcome them with open arms.
             </p>
 
             <div class="about-info">
@@ -175,12 +170,12 @@
                     <h5>100+</h5>
                     <h6>Saved Pets</h6>
                 </div>
-                <hr class="about-info-divider"/>
+                <hr class="about-info-divider" />
                 <div class="about-info-item">
                     <h5>100%</h5>
                     <h6>Adoption Rate</h6>
                 </div>
-                <hr class="about-info-divider"/>
+                <hr class="about-info-divider" />
                 <div class="about-info-item">
                     <h5>5 star</h5>
                     <h6>Community Loved</h6>
@@ -190,7 +185,7 @@
                 <button class="btn-3">Get Started</button>
             </a>
         </div>
-        <img src="./img/about-img.png" alt="img"/>
+        <img src="./img/about-img.png" alt="img" />
     </div>
 
     <div class="testimonials" id="stories">
@@ -201,7 +196,7 @@
             <div class="testimony-item">
                 <div class="testimony-people">
                     <div class="testimony-name">
-                        <img src="./img/testimony-image-1.png" alt="img"/>
+                        <img src="./img/testimony-image-1.png" alt="img" />
                         <div class="testimony-name-item">
                             <h4>Serena</h4>
                             <p>Sir Garfield's Owner</p>
@@ -210,13 +205,14 @@
                     <i class="fa-solid fa-quote-right"></i>
                 </div>
                 <p class="testimony-text">
-                    My experience with Purrfect has been nothing short of amazing. after losing my previous pet,I was hesitant to open my heart again,but Purrfect made the process smooth and comforting.
+                    My experience with Purrfect has been nothing short of amazing. after losing my previous pet,I was
+                    hesitant to open my heart again,but Purrfect made the process smooth and comforting.
                 </p>
             </div>
             <div class="testimony-item">
                 <div class="testimony-people">
                     <div class="testimony-name">
-                        <img src="./img/testimony-image-2.png" alt="img"/>
+                        <img src="./img/testimony-image-2.png" alt="img" />
                         <div class="testimony-name-item">
                             <h4>Nate</h4>
                             <p>Quacky's Owner</p>
@@ -225,13 +221,14 @@
                     <i class="fa-solid fa-quote-right"></i>
                 </div>
                 <p class="testimony-text">
-                   As a long-time advocate for pets adoption, I can confidently say that Purrfect goes above and beyond in their mission to find loving homes for animals in need.
+                    As a long-time advocate for pets adoption, I can confidently say that Purrfect goes above and beyond
+                    in their mission to find loving homes for animals in need.
                 </p>
             </div>
             <div class="testimony-item">
                 <div class="testimony-people">
                     <div class="testimony-name">
-                        <img src="./img/testimony-image-3.png" alt="img"/>
+                        <img src="./img/testimony-image-3.png" alt="img" />
                         <div class="testimony-name-item">
                             <h4>Blair</h4>
                             <p>Ratatuwi's Owner</p>
@@ -240,7 +237,8 @@
                     <i class="fa-solid fa-quote-right"></i>
                 </div>
                 <p class="testimony-text">
-                    I'll forever be grateful to purrfect for bringing my best friend into my life, adopting a pet was a big decesion for me,but purrfect made it feel like the most natural choice in the world. 
+                    I'll forever be grateful to purrfect for bringing my best friend into my life, adopting a pet was a
+                    big decesion for me,but purrfect made it feel like the most natural choice in the world.
                 </p>
             </div>
         </div>
@@ -276,5 +274,6 @@
         </div>
         <p class="copyright">All Rights Reserved</p>
     </footer>
-  </body>
+</body>
+
 </html>

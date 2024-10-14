@@ -171,6 +171,10 @@ nav.sticky {
     border: 1px solid var(--accent);
 }
 
+a {
+    text-decoration: none; /* Remove underline */
+}
+
 .btn-transparent {
     background-color: transparent;
     color: var(--black);
@@ -272,6 +276,7 @@ nav.sticky {
 
 .pet-item {
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
     gap: 28px;
     align-items: center;
