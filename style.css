@@ -276,7 +276,7 @@ a {
 
 .pet-item {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     flex-direction: column;
     gap: 28px;
     align-items: center;
